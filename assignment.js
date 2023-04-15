@@ -6,14 +6,16 @@ function one() {
 // one();
 
 function two(name) {
-    alert(name)
+    // alert(name)
 }
-// two('Ladybug Mecca');
+two('Ladybug Mecca');
 
-task3Element.addEventListener('click', one)
+// task3Element.addEventListener('click', one)
 
 function three(one, two, three) {
-    alert(one +', '+ two +', and '+three + ' are amazing and talented sisters.')
+    // alert(one +', '+ two +', and '+three + ' are amazing and talented sisters.')
+     const ladies = `${one}, ${two}, and ${three}, are three amazingly talented sisters.`
+     return ladies
 }
-three('Erykah', 'Ladybug', 'Lauryn' )
+alert(three('Erykah', 'Ladybug', 'Lauryn'))
 
