@@ -14,8 +14,8 @@ two('Ladybug Mecca');
 
 function three(one, two, three) {
     // alert(one +', '+ two +', and '+three + ' are amazing and talented sisters.')
-     const ladies = `${one}, ${two}, and ${three}, are three amazingly talented sisters.`
-     return ladies
+     const ladies = `${one}, ${two}, and ${three}, are three amazingly talented sisters.`;
+     return ladies;
 }
 alert(three('Erykah', 'Ladybug', 'Lauryn'))
 
